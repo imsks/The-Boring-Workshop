@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Building Landing Page with Tailwind</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    screens: {
+                        sm: "480px",
+                        md: "768px",
+                        lg: "976px",
+                        xl: "1440px"
+                    },
+                    colors: {
+                        primary: "#FF5757",
+                        white: "#ffffff",
+                        black: "#000000"
+                    },
+                    extend: {
+                        fontSize: {
+                            xs: "0.75rem",
+                            sm: "0.875rem",
+                            base: "1rem",
+                            lg: "1.125rem",
+                            xl: "1.25rem",
+                            "2xl": "2rem"
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="flex justify-between p-8">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+                        class="h-8"
+                        alt="logo"
+                    />
+                    <div class="flex gap-4">
+                        <a
+                            href=""
+                            class="text-sm font-medium hover:text-primary"
+                            >Our Programs</a
+                        >
+                        <a
+                            href=""
+                            class="text-sm font-medium hover:text-primary"
+                            >Register Now</a
+                        >
+                        <a
+                            href=""
+                            class="text-sm font-medium hover:text-primary"
+                            >Contact us</a
+                        >
+                    </div>
+                </div>
+            </header>
+            <section class="py-20">
+                <div class="flex flex-col items-center gap-6">
+                    <div class="flex flex-col items-center gap-2">
+                        <h1 class="text-2xl font-bold"
+                            >Lorem Ipsum is simply dummy text</h1
+                        >
+                        <p
+                            >Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry.
+                        </p>
+                    </div>
+                    <div class="flex gap-4">
+                        <button
+                            class="bg-primary text-white hover:bg-white hover:text-primary hover:border-primary hover:border-2 outline-none border-0 rounded px-4 py-2 text-base hover:drop-shadow-lg hover:scale-105 transition-all"
+                            >Register Now</button
+                        >
+                        <button
+                            class="border-primary text-primary border-2 outline-none rounded px-4 py-2 text-base hover:drop-shadow-lg hover:scale-105 transition-all"
+                            >Explore Courses</button
+                        >
+                    </div>
+                </div>
+            </section>
+            <section
+                class="py-10 w-1/2 m-auto bg-gradient-to-r from-primary to-white rounded-md"
+            >
+                <div class="flex justify-center gap-8 items-center">
+                    <img
+                        src="https://ik.imagekit.io/tbe/webapp/laptop.svg"
+                        class="h-56"
+                    />
+                    <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-1">
+                            <h3 class="text-xl font-bold"
+                                >Lorem Ipsum is simply dummy text</h3
+                            >
+                            <p class="text-base font-normal"
+                                >Lorem Ipsum is simply dummy text</p
+                            >
+                        </div>
+                        <div class="">
+                            <button
+                                class="bg-primary text-white hover:bg-white hover:text-primary hover:border-primary hover:border-2 outline-none border-0 rounded px-4 py-2 text-base hover:drop-shadow-lg hover:scale-105 transition-all"
+                                >Explore</button
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="bg-black px-4 py-2 mt-10">
+                <div class="flex justify-between">
+                    <p class="text-base text-white">The Boring Education</p>
+                    <p class="text-base text-white"
+                        >Created by <a href="">Sachin</a></p
+                    >
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
