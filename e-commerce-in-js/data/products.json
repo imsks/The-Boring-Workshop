@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Laptop",
+        "price": 20,
+        "description": "New Laptop",
+        "image": "https://media.istockphoto.com/id/1157789866/photo/modern-computer-laptop-with-blank-screen-on-counter-barand-window-view.jpg?s=612x612&w=0&k=20&c=Idggc96ENAdz7R_ANTzvWpMTbaUcTV4JvJYKJHAD71A="
+    },
+    {
+        "id": 2,
+        "title": "Phone",
+        "price": 40,
+        "description": "New Phone",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "title": "T-Shirt",
+        "price": 60,
+        "description": "New T-Shirt",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "title": "Shirt",
+        "price": 80,
+        "description": "New Shirt",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "title": "Watch",
+        "price": 80,
+        "description": "New Watch",
+        "image": ""
+    }
+]
